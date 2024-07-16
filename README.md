@@ -1,1 +1,1 @@
-# blog-api-javaSpringBoot
+# blog-api-JavaSpringBoot
