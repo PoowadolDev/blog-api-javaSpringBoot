@@ -1,14 +1,14 @@
 package com.myapp.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GeneratedType;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class Blogs {
     @Id
-    @GeneratedValue(strategy = GeneratedType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String title;
     private String content;
@@ -24,19 +24,19 @@ public class Blogs {
 
     // Getters and Setters: Title
     public String getTitle() {
-        return title
+        return title;
     }
 
-    public void setTitle(string title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
     // Getters and Setters: Content
     public String getContent() {
-        return content
+        return content;
     }
 
-    public void setContent(string content) {
-        this.content = content
+    public void setContent(String content) {
+        this.content = content;
     }
 }
