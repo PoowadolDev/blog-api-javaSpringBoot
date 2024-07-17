@@ -61,7 +61,6 @@ mvn spring-boot:run
 #### Request Body
 ```json
 {
-    "id" : 1
     "title": "Post Title",
     "content": "Post Content"
 }
